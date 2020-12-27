@@ -2,9 +2,20 @@
 
 .a_title_text_wrap {
   display: flex;
-  .issue_num_text {
+  width: 100%;
+  justify-content: space-between;
+  .left_wrap {
+    .text_wrap {
+      display: flex;
+      .issue_title_text {
+      }
+    }
+    .sub_text_wrap {
+      display: flex;
+    }
   }
-
-  .issue_title_text {
+  .right_wrap {
+    .issue_comment_count {
+    }
   }
 }

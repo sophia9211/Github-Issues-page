@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import "./IssuesList.scss";
 import Header from "Components/Header";
-
+import TitleText from "Components/TitleText";
 interface ITitleTexIIssuesListPropstProps {
   type?: string;
 }
