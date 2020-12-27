@@ -1,0 +1,32 @@
+// 나눔 Square 서체 import
+@import url("https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css");
+
+// Spoqa Han Sans 서체 import
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
+// Noto sans 서체 import
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap");
+
+// Open Sans 서체 import
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+@import url("https://use.typekit.net/bat1rdm.css");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body.overflow_hidden,
+html.overflow_hidden {
+  overflow: hidden;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}

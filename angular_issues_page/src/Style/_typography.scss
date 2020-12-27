@@ -1,0 +1,13 @@
+// ------------------------------------------------------------------
+//  폰트와 관련된 모든 변수들을 가지고 있는 scss 파일입니다.
+//  앱에 사용할 폰트들의 import와 각 폰트 설정을 합니다.
+// ------------------------------------------------------------------
+
+// 대부분의 한글 본문 폰트는 Spoqa Han Sans를 사용합니다.
+// 100(thin), 300(light), 400(regular), 600(bold)의 weight을 지원합니다.
+$font-kr: ("Spoqa Han Sans", Dotum, AppleGothic, sans-serif);
+
+$font-kr2: "Noto Sans KR", Dotum, AppleGothic, sans-serif;
+
+// 숫자용 폰트입니다.
+$font-nb: ("Open Sans", Dotum, AppleGothic, sans-serif);

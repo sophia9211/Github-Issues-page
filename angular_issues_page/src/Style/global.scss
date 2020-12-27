@@ -1,0 +1,11 @@
+@import "./_config.scss";
+@import "./_typography.scss";
+@import "./_break.scss";
+
+// 모든 scss 파일 위에
+// ------------------------------
+// @import '~Style/global';
+// ------------------------------
+// 만 붙여주시면, 나머지 스타일 파일들이 모두 import 됩니다.
+// reset.scss는 이 곳에 import 할 경우 여러번 불필요하게 import 되므로,
+// index.css 에 한 번만 import 되도록 설정되어 있습니다.

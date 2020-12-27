@@ -1,0 +1,13 @@
+// breakpoint 변수입니다.
+// 아래 방식으로 적용하시면 됩니다.
+
+// @media #{$pc-L} {
+//   color: red;
+//   color: red;
+// }
+
+$pc-L: "only screen and (max-width: 1200px)";
+$pc-M: "only screen and (max-width: 1046px)";
+$pc-S: "only screen and (max-width: 992px)";
+
+$min-width: 320px;
